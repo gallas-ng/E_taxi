@@ -58,8 +58,8 @@
           @guest
           <li class="dropdown"><a href="#"><span>S'inscrire</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="{{ route('chauffeurs.create') }}">Je suis un Passager</a></li>
-              <li><a href="{{ route('clients.create') }}">Je suis un Chauffeur</a></li>
+              <li><a href="{{ route('chauffeurs.create') }}">Je suis un Chauffeur</a></li>
+              <li><a href="{{ route('clients.create') }}">Je suis un Passager</a></li>
             </ul>
           </li>
           @endguest
